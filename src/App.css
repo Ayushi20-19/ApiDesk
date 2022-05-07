@@ -4,8 +4,8 @@
   box-sizing: border-box;
 }
 :root {
-  --primary-color: #3f6e3f;
-  --error-color: #BB532E;
+  --primary-color: #189AB4;
+  --error-color: #ff0000;
   --text-color: #fff;
   --base-color: #d5ffeed2 ;
 }
@@ -16,7 +16,7 @@
   padding: 1rem;
   position: relative;
 }
-.App::-webkit-scrollbar {
+-webkit-scrollbar {
 	width: 6px;
 	background-color: var(--primary-color);
 }
