@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useState } from "react";
 import ReactJson from "react-json-view";
+import './apishow.css'
 
 const ShowApiData = () => {
   const [method, setMethod] = useState("GET");
@@ -60,20 +61,22 @@ const ShowApiData = () => {
 
   return (
     <div>
-      <select
-        onChange={(e) => setMethod(e.target.value)}
-        placeholder='Select method'>
-        select method
-        <option>GET</option>
-        <option>POST</option>
-      </select>
-      <input
-        placeholder='Enter Your API url'
-        onChange={(e) => setApiUrl(e.target.value)}
-      />
-      <button onClick={submitHandler}>Submit</button>
+      <div className="get-api-data">
+        <select
+          onChange={(e) => setMethod(e.target.value)}
+          placeholder='Select method'>
+          select method
+          <option>GET</option>
+          <option>POST</option>
+        </select>
+        <input
+          placeholder='ENTER YOUR API'
+          onChange={(e) => setApiUrl(e.target.value)}
+        />
+        <button onClick={submitHandler}>Submit</button>
+      </div>
       <div className='header'>
-        <div className='div1'>
+        <div className='header-container'>
           <input
             type='text'
             placeholder='header key'
@@ -90,33 +93,43 @@ const ShowApiData = () => {
           />
         </div>
       </div>
-      <div className='body'>
+      <div className='body-sec'>
         <textarea
           onChange={jsonDataHandler}
-          placeholder='put json object data'></textarea>
-        {jsonError}
+          placeholder='Enter Data in JSON format'></textarea>
+        <div className="json-err">
+          {jsonError}
+        </div>
       </div>
-      <div className=''>
+      <div className='response-cont'>
         {error ? (
           error
         ) : apiResponse === undefined ? (
           <h2>Response is undefined</h2>
         ) : (
           <>
-            <h2>Headers:</h2>
-            <ReactJson
-              src={apiResponse.headers}
-              theme={"parasio"}
-              collapsed={2}
-              collapseStringsAfterLength={10}
-            />
-            <h2>Data:</h2>
-            <ReactJson
-              src={apiResponse.data}
-              theme={"parasio"}
-              collapsed={2}
-              collapseStringsAfterLength={10}
-            />
+            <div className="response-data-sec">
+              <h2>Headers :</h2>
+              <div className="json-response">
+                <ReactJson
+                  src={apiResponse.headers}
+                  theme={"parasio"}
+                  collapsed={2}
+                  collapseStringsAfterLength={10}
+                />
+              </div>
+            </div>
+            <div className="response-data-sec">
+              <h2>Data :</h2>
+              <div className="json-response">
+                <ReactJson
+                  src={apiResponse.data}
+                  theme={"parasio"}
+                  collapsed={2}
+                  collapseStringsAfterLength={10}
+                />
+              </div>
+            </div>
           </>
         )}
       </div>
