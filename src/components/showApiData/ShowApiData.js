@@ -7,6 +7,10 @@ const ShowApiData = () => {
   const [method, setMethod] = useState("GET");
   const [apiUrl, setApiUrl] = useState();
   const [apiResponse, setApiResponse] = useState({});
+  console.log(
+    "🚀 ~ file: ShowApiData.js ~ line 10 ~ ShowApiData ~ apiResponse",
+    apiResponse
+  );
   const [jsonData, setJsonData] = useState({});
   const [error, setError] = useState();
   const [jsonError, setJsonError] = useState("");
@@ -15,10 +19,12 @@ const ShowApiData = () => {
     headerValue: "*/*",
   });
 
+  // input handler to set header values
   const headerInputHandler = (e) => {
     setHeaderInputs({ ...headerInputs, [e.target.name]: e.target.value });
   };
 
+  // JSON input handler to set json data values
   const jsonDataHandler = (e) => {
     try {
       setJsonData(e.target.value);
@@ -28,6 +34,7 @@ const ShowApiData = () => {
     }
   };
 
+  // function which do api call of respective methods, like GET, POST & DELETE
   const apiCallHandler = async () => {
     var keyHead = headerInputs.headerKey || "Accept";
     var value = headerInputs.headerValue || "*/*";
@@ -51,9 +58,20 @@ const ShowApiData = () => {
       } catch (error) {
         setError(error.message);
       }
+    } else if (method === "DELETE") {
+      try {
+        const res = await axios.delete(apiUrl, jsonData, {
+          headers: { [keyHead]: value },
+        });
+
+        setApiResponse(res);
+      } catch (error) {
+        setError(error.message);
+      }
     }
   };
 
+  // submit handler to trigger apicallhandler
   const submitHandler = () => {
     setError("");
     apiCallHandler();
@@ -68,6 +86,7 @@ const ShowApiData = () => {
           select method
           <option>GET</option>
           <option>POST</option>
+          <option>DELETE</option>
         </select>
         <input
           placeholder='ENTER YOUR API'
