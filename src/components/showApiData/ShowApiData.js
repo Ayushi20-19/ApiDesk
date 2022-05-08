@@ -7,10 +7,6 @@ const ShowApiData = () => {
   const [method, setMethod] = useState("GET");
   const [apiUrl, setApiUrl] = useState();
   const [apiResponse, setApiResponse] = useState({});
-  console.log(
-    "🚀 ~ file: ShowApiData.js ~ line 10 ~ ShowApiData ~ apiResponse",
-    apiResponse
-  );
   const [jsonData, setJsonData] = useState({});
   const [error, setError] = useState();
   const [jsonError, setJsonError] = useState("");
