@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useState } from "react";
 import ReactJson from "react-json-view";
-import './apishow.css'
+import "../apishow.css";
 
 const ShowApiData = () => {
   const [method, setMethod] = useState("GET");
@@ -61,7 +61,7 @@ const ShowApiData = () => {
 
   return (
     <div>
-      <div className="get-api-data">
+      <div className='get-api-data'>
         <select
           onChange={(e) => setMethod(e.target.value)}
           placeholder='Select method'>
@@ -97,9 +97,7 @@ const ShowApiData = () => {
         <textarea
           onChange={jsonDataHandler}
           placeholder='Enter Data in JSON format'></textarea>
-        <div className="json-err">
-          {jsonError}
-        </div>
+        <div className='json-err'>{jsonError}</div>
       </div>
       <div className='response-cont'>
         {error ? (
@@ -108,9 +106,9 @@ const ShowApiData = () => {
           <h2>Response is undefined</h2>
         ) : (
           <>
-            <div className="response-data-sec">
+            <div className='response-data-sec'>
               <h2>Headers :</h2>
-              <div className="json-response">
+              <div className='json-response'>
                 <ReactJson
                   src={apiResponse.headers}
                   theme={"parasio"}
@@ -119,9 +117,9 @@ const ShowApiData = () => {
                 />
               </div>
             </div>
-            <div className="response-data-sec">
+            <div className='response-data-sec'>
               <h2>Data :</h2>
-              <div className="json-response">
+              <div className='json-response'>
                 <ReactJson
                   src={apiResponse.data}
                   theme={"parasio"}
