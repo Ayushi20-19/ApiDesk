@@ -25,7 +25,7 @@
   <h3 align="center">ApiDesk</h3>
 
   <p align="center">
-    An awesome Google Crome extension for developer.
+    An awesome Google Chrome extension for developer.
     <br />
     <a href="https://github.com/Ayushi20-19/apidesk"><strong>Explore App »</strong></a>
     <br />
@@ -67,14 +67,14 @@ https://user-images.githubusercontent.com/47889284/167309290-0622d3fb-3914-4dd1-
 
 <br/>
 
-There are many great Extensions. however, I didn't find one that really suited a develpoer's needs for API Testing and Error Searching. so I created this enhanced one. I want to create a extension for developers that'll be the last one you ever need -- I think this is it.
+There are numerous excellent Extensions. However, we couldn't find one that met a developer's API Testing and Error Searching requirements. So We made this ApiDesk. We want to make a developer extension that will be the last one you'll ever need, and we believe this is it.
 
 Here's why:
 * Your time should be focused on only something that deserves. A project that solves a problem and helps others.
 * You shouldn't be search again and again for same type of errors by opening new tabs.
 * Api Testing without writing any code at one place.
 
-Of course, no extension will serve all demands since your needs may be different. So I'll be adding more features in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have reviewed to expanding this Extension!
+Of course, no extension will serve all demands since your needs may be different. So We'll be adding more features in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have reviewed to expanding this Extension!
 
 
 
@@ -142,7 +142,7 @@ for now use below method to test.
 
 7- Click on load unpacked button on top left, and upload the build folder.
 
-8- vollaaaa, your extension is installed. feel free to give stars on our project 😂😂😂😂😂
+8- Vollaaaa, your extension is installed. feel free to give stars on our project 😂😂😂😂😂
 
 
 To test use this dummy api below -
