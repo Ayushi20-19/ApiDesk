@@ -30,7 +30,7 @@
     <a href="https://github.com/Ayushi20-19/apidesk"><strong>Explore App »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Ayushi20-19/apidesk">View Demo</a>
+    <a href="https://docs.google.com/document/d/12CrYQeUzzMQaZh1R7Vi0BBkH7u4JcsnVWIkoj4AnojY/edit?usp=sharing">View Doc</a>
     ·
     <a href="https://github.com/Ayushi20-19/apidesk/issues">Report Bug</a>
     ·
@@ -91,8 +91,9 @@ Of course, no extension will serve all demands since your needs may be different
 
 ### Project View
 
-![](ss/1.PNG)
-![](ss/2.PNG)
+![image](https://user-images.githubusercontent.com/50084909/167312882-cc9d7edb-ef69-40e0-8dd5-3f27e39fd0ad.png)
+![image](https://user-images.githubusercontent.com/50084909/167312894-d7ec7e04-7ec9-408c-9941-de2606020b47.png)
+
 ### Prerequisites
 
 1- Working Internet is all you need
@@ -154,14 +155,16 @@ Nahhhhhh....Not a rocket Science. just read the artical below.
 
 [ApiDesk Use](https://dev.to/ayushi_verma/apidesk-4gef)
 
+## How to uplaod in your chrome
 
+[ApiDesk Documentation](https://docs.google.com/document/d/12CrYQeUzzMQaZh1R7Vi0BBkH7u4JcsnVWIkoj4AnojY/edit?usp=sharing)
 
 <!-- CONTACT -->
 ## Contact
 
-Nishant Kumar Tiwari - [@my_Linkedin](https://www.linkedin.com/in/nishant-kumar-tiwari-253a46196/) - nishant88tiwari@gmail.com <br />
-<br />
-Ayushi Verma - [@my_Linkedin](https://www.linkedin.com/in/ayushi20-19/)
+Nishant Kumar Tiwari - [@my_Linkedin](https://www.linkedin.com/in/nishant-kumar-tiwari-253a46196/) - nishant88tiwari@gmail.com 
+
+Ayushi Verma - [@my_Linkedin](https://www.linkedin.com/in/ayushi20-19/) - ayushiverma.av1828@gmail.com
 
 Project Link: [ApiDesk](https://github.com/Ayushi20-19/apidesk)
 
