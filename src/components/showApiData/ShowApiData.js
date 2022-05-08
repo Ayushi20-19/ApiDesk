@@ -2,6 +2,7 @@ import axios from "axios";
 import React, { useState } from "react";
 import ReactJson from "react-json-view";
 import "../apishow.css";
+import Footer from "../footer/Footer";
 
 const ShowApiData = () => {
   const [method, setMethod] = useState("GET");
@@ -146,6 +147,7 @@ const ShowApiData = () => {
           </>
         )}
       </div>
+      <Footer />
     </div>
   );
 };
