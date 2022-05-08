@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Footer from "../footer/Footer";
 import Data from "./Data";
 const StackOverflow = () => {
   const [linkData, setLinkData] = useState();
@@ -52,6 +53,7 @@ const StackOverflow = () => {
           alt='stack'
         />
       </div>
+      <Footer />
     </>
   );
 };
