@@ -155,7 +155,7 @@ Nahhhhhh....Not a rocket Science. just read the artical below.
 
 [ApiDesk Use](https://dev.to/ayushi_verma/apidesk-4gef)
 
-## How to uplaod in your chrome
+## How to uplaod in your chrome ?
 
 [ApiDesk Documentation](https://docs.google.com/document/d/12CrYQeUzzMQaZh1R7Vi0BBkH7u4JcsnVWIkoj4AnojY/edit?usp=sharing)
 
