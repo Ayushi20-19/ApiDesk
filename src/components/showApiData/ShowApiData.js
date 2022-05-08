@@ -25,7 +25,8 @@ const ShowApiData = () => {
   const jsonDataHandler = (e) => {
     try {
       setJsonData(e.target.value);
-      setJsonError("Error in JSON format");
+      JSON.parse(e.target.value);
+      setJsonError("");
     } catch (e) {
       setJsonError("Error in JSON format");
     }
