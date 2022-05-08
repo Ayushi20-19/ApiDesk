@@ -61,6 +61,12 @@
 ## About The Project
 
 
+
+https://user-images.githubusercontent.com/47889284/167309290-0622d3fb-3914-4dd1-9e0f-b1e6261aa3c3.mp4
+
+
+<br/>
+
 There are many great Extensions. however, I didn't find one that really suited a develpoer's needs for API Testing and Error Searching. so I created this enhanced one. I want to create a extension for developers that'll be the last one you ever need -- I think this is it.
 
 Here's why:
@@ -83,8 +89,10 @@ Of course, no extension will serve all demands since your needs may be different
 
 
 
+### Project View
 
-
+![](ss/1.PNG)
+![](ss/2.PNG)
 ### Prerequisites
 
 1- Working Internet is all you need
