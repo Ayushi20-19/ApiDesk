@@ -139,6 +139,13 @@ To test use this dummy api below -
 
 https://jsonplaceholder.typicode.com/todos/1
 
+## How to Use ?
+
+Nahhhhhh....Not a rocket Science. just read the artical below.
+
+[ApiDesk Use](https://dev.to/ayushi_verma/apidesk-4gef)
+
+
 
 <!-- CONTACT -->
 ## Contact
