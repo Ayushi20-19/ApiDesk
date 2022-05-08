@@ -111,7 +111,33 @@ Don't forget to give the project a star! Thanks again!
 
 
 
-<!-- LICENSE -->
+<!-- HOW TO INSTALL-->
+
+## How to Install ?
+
+--IMPORTANT-- This extension will soon be avilable on crome webstore, It is still under review when the Google Webstore approves it, we will update the link.
+for now use below method to test.
+
+1- Download Zip or Clone the project
+
+2- Use <code> npm i</code> or <code> yarn </code> to install all the dependencies.
+
+3- Now use <code> yarn build </code> to create optimised folder.
+
+4- Now you are good to go. just open your crome browser.
+
+5- Open settings > extensions
+
+6- Activate the Developers Mode, on Top right corner.
+
+7- Click on load unpacked button on top left, and upload the build folder.
+
+8- vollaaaa, your extension is installed. feel free to give stars on our project 😂😂😂😂😂
+
+
+To test use this dummy api below -
+
+https://jsonplaceholder.typicode.com/todos/1
 
 
 <!-- CONTACT -->
